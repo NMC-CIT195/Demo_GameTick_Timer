@@ -18,6 +18,11 @@ namespace Demo_GameTick_Timer
             Console.ReadKey();
         }
 
+        /// <summary>
+        /// demo display of game ticks
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private static void GameTickTimer_Elapsed(object sender, ElapsedEventArgs e)
         {
             Timer timer = (Timer)sender;
